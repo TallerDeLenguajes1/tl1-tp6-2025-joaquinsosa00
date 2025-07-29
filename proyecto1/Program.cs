@@ -44,7 +44,6 @@ if(opcion<0 || opcion>5){
 Console.WriteLine("Opcion no valida");
 
 }
-
 else{
 Console.WriteLine("Ingrese el primer valor");
 int valor1=int.Parse(Console.ReadLine());
@@ -75,8 +74,6 @@ switch (opcion)
     
     
 }
-
-
 Console.WriteLine("\n Desea realizar otro calculo?");
 Console.WriteLine("1:Si");
 Console.WriteLine("2:No");
@@ -85,9 +82,7 @@ if (continuar==2){
     Console.WriteLine("\nSaliendo");
     opcion=5;
 }
-
 }
-
 } while (opcion!=5);
 
 
